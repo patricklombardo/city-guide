@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro');
+
+/* * {
+    font-family: 'Source Sans Pro', sans-serif;
+} */
+
+body {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.navbar {
+    font-family: 'Playfair Display', serif;
+}
+
+.form-inline {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.carousel {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.carousel-item {
+    max-width: 100%;
+    max-height: 500px;
+    background-size: cover;
+    overflow: hidden;
+}
+.carousel-item img{
+    width: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-20%);
+    text-shadow: 0 0 1px black;
+}
+
+.carousel btn, btn-light{
+    color: transparent;
+    transform: 1s;
+}
+
+.carousel btn:hover, btn-light:hover{
+    color: #999999
+    opacity: 0.5;
+}
+
+.display-2 {
+    font-family: 'Playfair Display', serif;
+}
+
+.jumbotron {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+
+.jumbotron p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    padding: 1em;
+    margin: 1em;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card-title {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+.card {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 1em;
+}
+.card-text {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.socket {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: #999999;
+}
